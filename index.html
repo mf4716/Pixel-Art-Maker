@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<!--
+# Mike Fix - Intro to Programming Udacity Nanodegree
+# 26 June 2019
+# Project:  Pixel Art Maker
+# References Utilized:
+# (1) Udacity-Pixel-Art-Maker-Project-master retrieved 18 June 2019
+# from https://github.com/TerkumaCode/Udacity-Pixel-Art-Maker-Project.git
+# (2) UdacityPixelArtMaker-master retrieved 18 June 2019
+# from https://github.com/77ccreed/UdacityPixelArtMaker.git
+# (3) Ud-FE-PixelArtMaker-JS-master retrieved 19 June 2019
+# from https://github.com/bcko/Ud-FE-PixelArtMaker-JS.git
+# (4) Udacity-Pixel-Art-Maker-master retrieved 19 June 2019
+# from https://github.com/ervaibhavkumar/Udacity-Pixel-Art-Maker
+# (5) Pixel-art-maker-master retrieved 20 June 2019
+# from https://github.com/Syknapse/Pixel-art-maker.git
+-->
+
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pixel Art Maker</h1>
+
+    <h2><u>Choose Grid Size</u></h2>
+    <form id="sizePicker">
+        Grid Height: <input type="number" id="inputHeight" name="height" min="1" value="1">
+        &nbspGrid Width: <input type="number" id="inputWidth" name="width" min="1" value="1">
+        <p><input type="submit" id="createClearGrid" value="Create / Clear Grid" style="background-color:#ADD8E6">
+    </form>
+
+    <h2><u>Pick A Color</u></h2>
+    <input type="color" id="colorPicker">
+
+    <h2><u>Design Canvas</u></h2>
+    <table id="pixelCanvas"></table>
+
+    <script src="designs.js"></script>
+</body>
+</html>
